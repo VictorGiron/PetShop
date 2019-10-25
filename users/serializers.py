@@ -78,3 +78,5 @@ class VeterinarianDetailSerializer(ModelSerializer):
         pets = {vaccination.pet for vaccination in vaccinations}
 
         return VeterinarianPetSerializer(instance=pets, many=True).data
+
+#Hola esta es una prueba para cambiar el commit
